@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+Контакты
+{% endblock %}
+{% block content %}
+<div class="card text-center">
+  <div class="card-header">
+    𝕎𝕒𝕥𝕙 𝕊ℍ𝕠𝕡
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Контакты</h5>
+    <p class="card-text">Бутик "𝕎𝕒𝕥𝕙 𝕊ℍ𝕠𝕡"
+ г. Алмата, пл. Хумид Алимжон, Столичный бизнес комплекс (западная сторона)
+ Телефон: +7 (12) 177-55-77, +7 (23) 232-00-66
+ E-mail: info@watch_stooore.kz, Telegram
+Бутик "𝕎𝕒𝕥𝕙 𝕊ℍ𝕠𝕡_kz"
+ г. Алматы, Ул. Казыкул, 7. г. Астана “Watch_pufs”
+ Телефон: +7 (23) 195-44-44</p>
+    <a href="{% url 'home' %}" class="btn btn-primary">На главную</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    2 days ago
+  </div>
+</div>
+{% endblock %}
